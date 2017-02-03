@@ -14,6 +14,7 @@ background: darkgray;
 }
 
 
+
 .character-stats {
   padding: 1rem;
   position: fixed;
@@ -21,7 +22,17 @@ background: darkgray;
   bottom: 10%;
 }
 
+.character-avatar {
+  padding-right: 2rem;
+
+}
+
+.character-health {
+  float: right;
+}
+
 .health-bars {
+
   display: block;
   border-bottom: white .25rem solid;
   border-right: blue .25rem solid;
@@ -29,6 +40,7 @@ background: darkgray;
 }
 
 .white {
+
   display: inline-block;
   height: 1rem;
   width: .25rem;
@@ -52,11 +64,13 @@ background: darkgray;
 }
 
 .skull {
+  margin-bottom: 5rem;
   width: 5rem;
 }
 
 .elimination {
   color: white;
+
 
 }
 .red {
