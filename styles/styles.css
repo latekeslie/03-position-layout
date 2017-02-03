@@ -1,11 +1,73 @@
 body {
   margin: 0;
   font-size: 16px;
+  background: tomato;
+  font-family: sans-serif;
 }
 
 * {
   box-sizing: border-box;
 }
 main {
+background: darkgrey;
+}
 
+
+.character-stats {
+  padding: 1rem;
+  position: fixed;
+  left: 2.5rem;
+  bottom: 10%;
+}
+.elimination-stats {
+
+  position: fixed;
+  top: 25%;
+  bottom: 75%;
+  right: 50%;
+  left: 50%;
+}
+.skull {
+  width: 5rem;
+}
+.elimination {
+  color: white;
+
+}
+.red {
+  color: red;
+
+}
+.weapon-status {
+  padding: 1rem;
+  position: fixed;
+  right: 2.5rem;
+  bottom: 10%;
+}
+.weapon-images-container {
+  overflow: auto;
+}
+
+.specialmove-container {
+  display: inline-block;
+}
+
+.weapon-pic {
+  float: right;
+}
+
+.ammo-text-container {
+  text-align: right;
+
+}
+
+.specialmove-img {
+  width: 4rem;
+
+
+}
+
+.keybindings-img {
+  width: 2rem;
+  display: block;
 }
