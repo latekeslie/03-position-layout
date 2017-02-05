@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Big-Noodle";
+  src: url("../fonts/big_noodle_titling.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   font-size: 16px;
@@ -10,6 +17,10 @@ body {
 }
 main {
 background: darkgray;
+}
+
+button {
+  background-color: transparent;
 }
 .background-image: {
   background-size: cover;
@@ -35,6 +46,7 @@ background: darkgray;
 .character-health {
   float: right;
   color: white;
+  transform: skewX(-15deg);
 
 }
 .big-health {
@@ -46,15 +58,15 @@ background: darkgray;
 }
 
 .health-bars {
-
+  padding-right: .35rem;
   display: block;
   border-bottom: white .25rem solid;
-  border-right: blue .25rem solid;
+  border-right: #44becf .25rem solid;
+  border-radius: .5rem;
 
 }
 
 .white {
-
   display: inline-block;
   height: 1rem;
   width: .25rem;
@@ -83,11 +95,15 @@ background: darkgray;
 }
 
 .elimination {
+  font-family: "Big-Noodle";
   color: white;
- font-family: inherit;
+ font-size: 2rem;
+ margin: 0;
+transform: skewX(-15deg);
 
 }
 .red {
+
   color: red;
 
 }
@@ -101,10 +117,13 @@ background: darkgray;
   position: fixed;
   right: 2.5rem;
   bottom: 10%;
+
 }
+
 .icon-images-container {
   overflow: auto;
   margin-top: 3rem;
+  padding: 1rem;
 }
 
 .specialmove-container {
@@ -113,6 +132,9 @@ background: darkgray;
 
 .weapon-pic {
   float: right;
+  border-right: #44becf .25rem solid;
+  padding-right: .35rem;
+  border-radius: .5rem;
 }
 
 .ammo-container {
@@ -125,14 +147,20 @@ background: darkgray;
 
 .specialmove-img {
   width: 4rem;
-
+ border: .05rem white solid;
+ transform: skewX(7deg);
 
 }
 
 .keybindings-img {
   width: 2rem;
   display: block;
+  border: .05rem white solid;
+  transform: skewX(7deg);
+  color: white;
+  margin-left: 1.25rem;
 }
+
 .big-ammo {
  color: white;
  font-size: 1.5;
