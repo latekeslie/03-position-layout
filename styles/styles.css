@@ -117,12 +117,13 @@ transform: skewX(-15deg);
   position: fixed;
   right: 2.5rem;
   bottom: 10%;
+  transform: skewX(-7deg)
 
 }
 
 .icon-images-container {
   overflow: auto;
-  margin-top: 3rem;
+  margin-top: 2.5rem;
   padding: 1rem;
 }
 
@@ -142,13 +143,15 @@ transform: skewX(-15deg);
 }
 .ammo-count {
   text-align: right;
+  margin-right: 1rem;
+  transform: skewX(-10deg)
 
 }
 
 .specialmove-img {
   width: 4rem;
  border: .05rem white solid;
- transform: skewX(7deg);
+ transform: skewX(-7deg);
 
 }
 
@@ -156,18 +159,20 @@ transform: skewX(-15deg);
   width: 2rem;
   display: block;
   border: .05rem white solid;
-  transform: skewX(7deg);
+  transform: skewX(-7deg);
   color: white;
-  margin-left: 1.25rem;
+  margin-left: .75rem;
 }
 
 .big-ammo {
  color: white;
- font-size: 1.5;
+ font-size: 1.5rem;
+ transform: skewX(-10deg)
 }
 .little-ammo {
  color: white;
  font-size:.75rem;
+ transform: skewX(-10deg)
 }
 
 .background {
