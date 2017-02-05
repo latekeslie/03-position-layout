@@ -1,7 +1,6 @@
 body {
   margin: 0;
   font-size: 16px;
-  background: tomato;
   font-family: sans-serif;
 }
 
@@ -11,6 +10,11 @@ body {
 }
 main {
 background: darkgray;
+}
+.background-image: {
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 
@@ -25,10 +29,20 @@ background: darkgray;
 .character-avatar {
   padding-right: 2rem;
 
+
 }
 
 .character-health {
   float: right;
+  color: white;
+
+}
+.big-health {
+  font-size: 1.5rem;
+}
+
+.little-health {
+  font-size: .75rem;
 }
 
 .health-bars {
@@ -70,7 +84,7 @@ background: darkgray;
 
 .elimination {
   color: white;
-
+ font-family: inherit;
 
 }
 .red {
@@ -118,4 +132,18 @@ background: darkgray;
 .keybindings-img {
   width: 2rem;
   display: block;
+}
+.big-ammo {
+ color: white;
+ font-size: 1.5;
+}
+.little-ammo {
+ color: white;
+ font-size:.75rem;
+}
+
+.background {
+  background: url("http://cdn.segmentnext.com/wp-content/uploads/2014/11/Overwatch-1.jpg") no-repeat center;
+  background: cover;
+  height: 100vh;
 }
