@@ -80,17 +80,22 @@ button {
 }
 
 .elimination-stats {
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%, -50%);
 
-  position: fixed;
+  /*position: fixed;
   top: 25%;
   left: 45%;
-  text-align: center;
+  text-align: center;*/
 }
 .elimination-stats * {
 }
 
 .skull {
   margin-bottom: 5rem;
+  margin-left: 4rem;
   width: 5rem;
 }
 
