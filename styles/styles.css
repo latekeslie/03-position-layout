@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "Big-Noodle";
+  src: url("../fonts/big_noodle_titling.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+
+}
+main {
+background: darkgray;
+}
+
+button {
+  background-color: transparent;
+}
+.background-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+
+.character-stats {
+  padding: 1rem;
+  position: fixed;
+  left: 2.5rem;
+  bottom: 10%;
+}
+
+.character-avatar {
+  padding-right: 2rem;
+
+
+}
+
+.character-health {
+  float: right;
+  color: white;
+  transform: skewX(-15deg);
+
+}
+.big-health {
+  font-size: 1.5rem;
+}
+
+.little-health {
+  font-size: .75rem;
+}
+
+.health-bars {
+  padding-right: .35rem;
+  display: block;
+  border-bottom: white .25rem solid;
+  border-right: #44becf .25rem solid;
+  border-radius: .5rem;
+
+}
+
+.white {
+  display: inline-block;
+  height: 1rem;
+  width: .25rem;
+ background-color: white;
+}
+.yellow {
+  display: inline-block;
+  height: 1rem;
+  width: .25rem;
+  background-color: yellow;
+}
+
+.elimination-stats {
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%, -50%);
+
+  /*position: fixed;
+  top: 25%;
+  left: 45%;
+  text-align: center;*/
+}
+.elimination-stats * {
+}
+
+.skull {
+  margin-bottom: 5rem;
+  margin-left: 4rem;
+  width: 5rem;
+}
+
+.elimination {
+  font-family: "Big-Noodle";
+  color: white;
+ font-size: 2rem;
+ margin: 0;
+transform: skewX(-15deg);
+
+}
+.red {
+
+  color: red;
+
+}
+
+
+
+
+
+.weapon-status {
+  padding: 1rem;
+  position: fixed;
+  right: 2.5rem;
+  bottom: 10%;
+  transform: skewX(-7deg)
+
+}
+
+.icon-images-container {
+  overflow: auto;
+  margin-top: 2.5rem;
+  padding: 1rem;
+}
+
+.specialmove-container {
+  display: inline-block;
+}
+
+.weapon-pic {
+  float: right;
+  border-right: #44becf .25rem solid;
+  padding-right: .35rem;
+  border-radius: .5rem;
+}
+
+.ammo-container {
+  float: right;
+}
+.ammo-count {
+  text-align: right;
+  margin-right: 1rem;
+  transform: skewX(-10deg)
+
+}
+
+.specialmove-img {
+  width: 4rem;
+ border: .05rem white solid;
+ transform: skewX(-7deg);
+
+}
+
+.keybindings-img {
+  width: 2rem;
+  display: block;
+  border: .05rem white solid;
+  transform: skewX(-7deg);
+  color: white;
+  margin-left: .75rem;
+}
+
+.big-ammo {
+ color: white;
+ font-size: 1.5rem;
+ transform: skewX(-10deg)
+}
+.little-ammo {
+ color: white;
+ font-size:.75rem;
+ transform: skewX(-10deg)
+}
+
+.background {
+  background: url("http://cdn.segmentnext.com/wp-content/uploads/2014/11/Overwatch-1.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
